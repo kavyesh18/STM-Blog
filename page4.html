@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./page4.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            KR-Blogs
+          </div>
+          <div class="menu">
+            <a href="../Main Page/index.html">Home</a>
+            <a href="../Main Page/about.html">About</a>
+            <a href="#">Services</a>
+          </div>
+
+          <div class="Contact">
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+
+        <section>
+          <h1>Basics of path testing:</h1>
+          <ol>
+            <li>1.Path Testing is the name given to a family of test techniques based on judiciously selecting a set of test paths through the program.</li>
+            <li>2.If the set of paths are properly chosen then we have achieved some measure of test thoroughness. For example, pick enough paths to assure that every source statement has been executed at least once.</li>
+            <li>3.Path testing techniques are the oldest of all structural test techniques.</li>
+            <li>4.Path testing is most applicable to new software for unit testing. It is a structural technique.</li>
+            <li>5.It requires complete knowledge of the program's structure.</li>
+            <li>6.It is most often used by programmers to unit test their own code.</li>
+            <li>7.The effectiveness of path testing rapidly deteriorates as the size of the software aggregate under test increases.</li>
+          </ol>
+
+          <h1>Control Flow Graphs:</h1>
+          <ol>
+            <li>1.The control flow graph is a graphical representation of a program's control structure. It uses the elements named process blocks, decisions, and junctions.</li>
+            <li>2.The flow graph is similar to the earlier flowchart, with which it is not to be confused.</li>
+          </ol>
+
+          <h1>Flow Graph Elements:</h1>
+
+          <ol>
+            <li> <b>A flow graph contains four different types of elements.
+              (1)
+              Process Block (2) Decisions (3) Junctions (4) Case Statements </b> </li>
+          </ol>
+
+          <h4>1.Process Block:</h4>
+
+          <ol>
+            <li>1.A process block is a sequence of program statements uninterrupted by either decisions or junctions.</li>
+            <li>2.It is a sequence of statements such that if any one of statement of the block is executed, then all statement thereof are executed.</li>
+            <li>3.Formally, a process block is a piece of straight line code of one statement or hundreds of statements.</li>
+          </ol>
+          
+          <h4>2.Decisions:</h4>
+          <ol>
+            <li>1.A decision is a program point at which the control flow can diverge.</li>
+            <li>2.Machine language conditional branch and conditional skip instructions are examples of decisions.</li>
+            <li>3.Most of the decisions are two-way but some are three way branches in control flow.</li>
+          </ol>
+
+          <h4>3.Case Statements:</h4>
+
+          <ol>
+            <li>1.A case statement is a multi-way branch or decisions.</li>
+            <li>2.Examples of case statement are a jump table in assembly language, and the PASCAL case statement.</li>
+            <li>3.From the point of view of test design, there are no differences between Decisions and Case Statements</li>
+          </ol>
+
+          <h4>4.Junctions:</h4>
+
+          <ol>
+            <li>1.A junction is a point in the program where the control flow can merge.</li>
+            <li>2.Examples of junctions are: the target of a jump or skip instruction in ALP, a label that is a target of GOTO.</li>
+          </ol>
+
+          <img src="./K.jpg" alt="image">
+
+          <h1>Control Flow Graphs:</h1>
+          
+          <p>A Control Flow Graph (CFG) is the graphical representation of control flow or computation during the execution of programs or applications. Control flow graphs are mostly used in static analysis as well as compiler applications, as they can accurately represent the flow inside a program unit.</p>
+
+          <h4>Characterstics of Control Flow Graph:</h4>
+
+          <ol>
+            <li>1.The control flow graph is process-oriented.</li>
+            <li>2.The control flow graph shows all the paths that can be traversed during a program execution.</li>
+            <li>3.A control flow graph is a directed graph.</li>
+            <li>4.Edges in CFG portray control flow paths and the nodes in CFG portray basic blocks.</li>
+            <li>There exist 2 designated blocks in the Control Flow Graph:</li>
+            <li><b>1.Entry Block:</b> The entry block allows the control to enter into the control flow graph.</li>
+            <li><b>2.Exit Block:</b> Control flow leaves through the exit block.</li>
+          </ol>
+
+          <h1>General Control Flow Graphs:</h1>
+
+          <p>Control Flow Graph is represented differently for all statements and loops. Following images describe it:
+
+          </p>
+
+          <h4>1.If-else</h4>
+
+          <img class="else" src="./ifelse.jpg" alt="">
+
+          <h4>2.While</h4>
+
+          <img src="./while.jpg" alt="">
+
+          <h4>3.Do-While</h4>
+
+          <img src="./dowhile.jpg" alt="">
+        </section>
+
+        <section>
+          <a element style="float: right;" class="next" href="../Page5/page5.html">Next</a>
+          <a element style="float: left;" class="prev" href="../Page3/page3.html">Prev</a>
+        </section>
+</body>
+</html>

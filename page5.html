@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./page5.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            KR-Blogs
+          </div>
+          <div class="menu">
+            <a href="../Main Page/index.html">Home</a>
+            <a href="../Main Page/about.html">About</a>
+            <a href="#">Services</a>
+          </div>
+
+          <div class="Contact">
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+
+        <section>
+            <h1>Applications of Path Testing in Software Testing Methodologies
+            </h1>
+
+            <ol>
+                <li><b>1.Integration, Coverage and Paths in called Components:</b></li>
+                <p>Path testing methods are mainly used in unit testing, especially for new software
+                    The new component is first tested as an independent unit with all called components and co-requisite components replaced by stubs. A simulator of low-level components that is more reliable than the actual component
+                    Path testing clarifies the integration issues
+                    C1 coverage at the system level ranges from 50% to 85%
+                    We gave no statistics for C2 coverage in system testing because it is impossible to monitor C2 coverage without disrupting the system's operation
+                    Note:
+                    Co-requisite: A formal course of study required to be taken simultaneously with another</p>
+            </ol>
+
+            <ol>
+                <li> <b> 2.New Code:</b>
+                    <p>New code should always be subjected to enough path testing to achieve C2
+                        Stubs are used where it is clear that the bug potential for the stub is significantly lower than that of the called components
+                        Old, trusted components will not be replaced by stubs
+                        Some consideration is given to paths within called components
+                        Typically, we will try to use the shortest entry/exit path that will do the task</p>
+                </li>
+            </ol>
+
+            <ol>
+                <li> <b>3.Maintenance:</b></li>
+
+                <p>There is a great difference between maintenance testing and new code testing
+                    Maintenance testing is a completely different situation
+                    It involves modifications which are accommodated in the system, as required
+                    Path testing is used firstly on the modified component</p>
+            </ol>
+
+            <ol>
+                <li><b>4.Rehosting:</b></li>
+
+                <p>Path testing with C1+C2 coverage is a powerful tool for rehosting old software
+                    We get a very powerful, effective, rehosting process when C1+C2 coverage is used in conjunction with automatic or semiautomatic structural test generators
+                    Software is rehosted because it is no longer cost effective to support the environment in which it runs
+                    The objective of rehosting is to change the operating environment and not the rehosted software
+                    Rehosting from one COBOL environment to another is easy by comparison
+                    Rehosted software can be modified to improve efficiency and/or to implement new functionality, which had been difficult in the old environments
+                    The test suites(collection) and all outcomes of the old environment become the specification for the rehosted software</p>
+            </ol>
+        </section>
+
+        <section>
+            <a element style="float: right;" class="next" href="#">Next</a>
+            <a element style="float: left;" class="prev" href="../Page4/page4.html">Prev</a>
+          </section>
+</body>
+</html>
